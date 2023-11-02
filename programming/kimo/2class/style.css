@@ -1,0 +1,37 @@
+.maindiv{
+    box-sizing: border-box;
+
+    color: aqua;
+    background-color: black;
+    margin: 15px;
+    border: 50px solid green;
+    
+    padding: 20px;
+}
+#div1{
+position: relative;
+top: 12px;
+left: 25px;
+}
+#div2{
+    background-color: rgb(105, 128, 83);
+    position:absolute;
+    top: 50%;
+    left:50%;
+}
+#div3{
+    position: relative;
+top: 12px;
+left: 25px;
+}
+p[class="styleparagraph"]{
+    background-color: chocolate;
+}
+button:hover{
+background-color: cyan;
+cursor: pointer;
+}
+button::after{
+    content:"*";
+    color: brown;
+}

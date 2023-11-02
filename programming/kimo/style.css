@@ -1,0 +1,8 @@
+button:hover{
+    background-color: cyan;
+    cursor: pointer;
+    }
+    input[type="submit"]:hover{
+        background-color: cyan;
+        cursor: pointer;
+    }
